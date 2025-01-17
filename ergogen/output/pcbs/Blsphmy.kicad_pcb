@@ -1,0 +1,2493 @@
+
+
+(kicad_pcb (version 20171130) (host pcbnew 5.1.6)
+
+  (page A3)
+  (title_block
+    (title "Blsphmy")
+    (rev "v1.0.0")
+    (company "Unknown")
+  )
+
+  (general
+    (thickness 1.6)
+  )
+
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
+  )
+
+  (setup
+    (last_trace_width 0.25)
+    (trace_clearance 0.2)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.2)
+    (via_size 0.8)
+    (via_drill 0.4)
+    (via_min_size 0.4)
+    (via_min_drill 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (edge_width 0.05)
+    (segment_width 0.2)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.12)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1.524 1.524)
+    (pad_drill 0.762)
+    (pad_to_mask_clearance 0.05)
+    (aux_axis_origin 0 0)
+    (visible_elements FFFFFF7F)
+    (pcbplotparams
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory ""))
+  )
+
+  (net 0 "")
+(net 1 "RAW")
+(net 2 "GND")
+(net 3 "RST")
+(net 4 "VCC")
+(net 5 "C11")
+(net 6 "C10")
+(net 7 "C9")
+(net 8 "C8")
+(net 9 "C7")
+(net 10 "C6")
+(net 11 "C5")
+(net 12 "C4")
+(net 13 "P1")
+(net 14 "P0")
+(net 15 "C3")
+(net 16 "C2")
+(net 17 "C1")
+(net 18 "R1")
+(net 19 "R2")
+(net 20 "R3")
+(net 21 "R4")
+(net 22 "R5")
+(net 23 "P101")
+(net 24 "P102")
+(net 25 "P107")
+(net 26 "MCU1_24")
+(net 27 "MCU1_1")
+(net 28 "MCU1_23")
+(net 29 "MCU1_2")
+(net 30 "MCU1_22")
+(net 31 "MCU1_3")
+(net 32 "MCU1_21")
+(net 33 "MCU1_4")
+(net 34 "MCU1_20")
+(net 35 "MCU1_5")
+(net 36 "MCU1_19")
+(net 37 "MCU1_6")
+(net 38 "MCU1_18")
+(net 39 "MCU1_7")
+(net 40 "MCU1_17")
+(net 41 "MCU1_8")
+(net 42 "MCU1_16")
+(net 43 "MCU1_9")
+(net 44 "MCU1_15")
+(net 45 "MCU1_10")
+(net 46 "MCU1_14")
+(net 47 "MCU1_11")
+(net 48 "MCU1_13")
+(net 49 "MCU1_12")
+(net 50 "q_top")
+(net 51 "w_top")
+(net 52 "e_top")
+(net 53 "r_top")
+(net 54 "t_top")
+(net 55 "y_top")
+(net 56 "u_top")
+(net 57 "i_top")
+(net 58 "o_top")
+(net 59 "p_top")
+(net 60 "a_home")
+(net 61 "s_home")
+(net 62 "d_home")
+(net 63 "f_home")
+(net 64 "g_home")
+(net 65 "h_home")
+(net 66 "j_home")
+(net 67 "k_home")
+(net 68 "l_home")
+(net 69 "semi_home")
+(net 70 "z_bottom")
+(net 71 "x_bottom")
+(net 72 "c_bottom")
+(net 73 "v_bottom")
+(net 74 "b_bottom")
+(net 75 "n_bottom")
+(net 76 "m_bottom")
+(net 77 "comma_bottom")
+(net 78 "period_bottom")
+(net 79 "slash_bottom")
+(net 80 "flex_thumb")
+(net 81 "base_thumb")
+(net 82 "ext_thumb")
+(net 83 "rext_thumb")
+(net 84 "rbase_thumb")
+(net 85 "rflex_thumb")
+(net 86 "BAT_CONN")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.25)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net "")
+(add_net "RAW")
+(add_net "GND")
+(add_net "RST")
+(add_net "VCC")
+(add_net "C11")
+(add_net "C10")
+(add_net "C9")
+(add_net "C8")
+(add_net "C7")
+(add_net "C6")
+(add_net "C5")
+(add_net "C4")
+(add_net "P1")
+(add_net "P0")
+(add_net "C3")
+(add_net "C2")
+(add_net "C1")
+(add_net "R1")
+(add_net "R2")
+(add_net "R3")
+(add_net "R4")
+(add_net "R5")
+(add_net "P101")
+(add_net "P102")
+(add_net "P107")
+(add_net "MCU1_24")
+(add_net "MCU1_1")
+(add_net "MCU1_23")
+(add_net "MCU1_2")
+(add_net "MCU1_22")
+(add_net "MCU1_3")
+(add_net "MCU1_21")
+(add_net "MCU1_4")
+(add_net "MCU1_20")
+(add_net "MCU1_5")
+(add_net "MCU1_19")
+(add_net "MCU1_6")
+(add_net "MCU1_18")
+(add_net "MCU1_7")
+(add_net "MCU1_17")
+(add_net "MCU1_8")
+(add_net "MCU1_16")
+(add_net "MCU1_9")
+(add_net "MCU1_15")
+(add_net "MCU1_10")
+(add_net "MCU1_14")
+(add_net "MCU1_11")
+(add_net "MCU1_13")
+(add_net "MCU1_12")
+(add_net "q_top")
+(add_net "w_top")
+(add_net "e_top")
+(add_net "r_top")
+(add_net "t_top")
+(add_net "y_top")
+(add_net "u_top")
+(add_net "i_top")
+(add_net "o_top")
+(add_net "p_top")
+(add_net "a_home")
+(add_net "s_home")
+(add_net "d_home")
+(add_net "f_home")
+(add_net "g_home")
+(add_net "h_home")
+(add_net "j_home")
+(add_net "k_home")
+(add_net "l_home")
+(add_net "semi_home")
+(add_net "z_bottom")
+(add_net "x_bottom")
+(add_net "c_bottom")
+(add_net "v_bottom")
+(add_net "b_bottom")
+(add_net "n_bottom")
+(add_net "m_bottom")
+(add_net "comma_bottom")
+(add_net "period_bottom")
+(add_net "slash_bottom")
+(add_net "flex_thumb")
+(add_net "base_thumb")
+(add_net "ext_thumb")
+(add_net "rext_thumb")
+(add_net "rbase_thumb")
+(add_net "rflex_thumb")
+(add_net "BAT_CONN")
+  )
+
+  
+    
+    
+  (footprint "ceoloide:mcu_nice_nano"
+    (layer "F.Cu")
+    (at -30.4560594 -0.9104463 -7)
+    (property "Reference" "MCU1"
+      (at 0 -15 -7)
+      (layer "F.SilkS")
+      hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (attr exclude_from_pos_files exclude_from_bom)
+
+    
+    (fp_line (start 3.556 -18.034) (end 3.556 -16.51) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start -3.81 -16.51) (end -3.81 -18.034) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start -3.81 -18.034) (end 3.556 -18.034) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+
+
+  
+    (fp_line (start -8.89 -16.51) (end 8.89 -16.51) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start -8.89 -16.51) (end -8.89 16.57) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start 8.89 -16.51) (end 8.89 16.57) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start -8.89 16.57) (end 8.89 16.57) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    
+    
+    
+    (pad "24" thru_hole circle (at -7.62 -12.7 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 13 "P1"))
+    (pad "1" thru_hole circle (at 7.62 -12.7 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 1 "RAW"))
+      
+    (fp_text user "P1" (at -4.47 -12.7 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "RAW" (at 4.47 -12.7 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "23" thru_hole circle (at -7.62 -10.16 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 14 "P0"))
+    (pad "2" thru_hole circle (at 7.62 -10.16 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 2 "GND"))
+      
+    (fp_text user "P0" (at -4.47 -10.16 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "GND" (at 4.47 -10.16 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "22" thru_hole circle (at -7.62 -7.619999999999999 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 2 "GND"))
+    (pad "3" thru_hole circle (at 7.62 -7.619999999999999 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 3 "RST"))
+      
+    (fp_text user "GND" (at -4.47 -7.619999999999999 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "RST" (at 4.47 -7.619999999999999 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "21" thru_hole circle (at -7.62 -5.079999999999999 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 2 "GND"))
+    (pad "4" thru_hole circle (at 7.62 -5.079999999999999 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 4 "VCC"))
+      
+    (fp_text user "GND" (at -4.47 -5.079999999999999 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "VCC" (at 4.47 -5.079999999999999 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "20" thru_hole circle (at -7.62 -2.539999999999999 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 15 "C3"))
+    (pad "5" thru_hole circle (at 7.62 -2.539999999999999 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 5 "C11"))
+      
+    (fp_text user "C3" (at -4.47 -2.539999999999999 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "C11" (at 4.47 -2.539999999999999 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "19" thru_hole circle (at -7.62 0 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 16 "C2"))
+    (pad "6" thru_hole circle (at 7.62 0 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 6 "C10"))
+      
+    (fp_text user "C2" (at -4.47 0 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "C10" (at 4.47 0 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "18" thru_hole circle (at -7.62 2.540000000000001 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 17 "C1"))
+    (pad "7" thru_hole circle (at 7.62 2.540000000000001 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 7 "C9"))
+      
+    (fp_text user "C1" (at -4.47 2.540000000000001 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "C9" (at 4.47 2.540000000000001 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "17" thru_hole circle (at -7.62 5.080000000000002 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 18 "R1"))
+    (pad "8" thru_hole circle (at 7.62 5.080000000000002 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 8 "C8"))
+      
+    (fp_text user "R1" (at -4.47 5.080000000000002 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "C8" (at 4.47 5.080000000000002 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "16" thru_hole circle (at -7.62 7.620000000000001 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 19 "R2"))
+    (pad "9" thru_hole circle (at 7.62 7.620000000000001 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 9 "C7"))
+      
+    (fp_text user "R2" (at -4.47 7.620000000000001 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "C7" (at 4.47 7.620000000000001 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "15" thru_hole circle (at -7.62 10.16 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 20 "R3"))
+    (pad "10" thru_hole circle (at 7.62 10.16 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 10 "C6"))
+      
+    (fp_text user "R3" (at -4.47 10.16 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "C6" (at 4.47 10.16 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "14" thru_hole circle (at -7.62 12.7 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 21 "R4"))
+    (pad "11" thru_hole circle (at 7.62 12.7 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 11 "C5"))
+      
+    (fp_text user "C5" (at 4.47 12.7 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    
+    (pad "13" thru_hole circle (at -7.62 15.240000000000002 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 22 "R5"))
+    (pad "12" thru_hole circle (at 7.62 15.240000000000002 -7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 12 "C4"))
+      
+    (fp_text user "R5" (at -4.47 15.240000000000002 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_text user "C4" (at 4.47 15.240000000000002 -7) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+            
+    (fp_line (start 6.29 -14.03) (end 8.95 -14.03) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start 6.29 -14.03) (end 6.29 16.57) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start 6.29 16.57) (end 8.95 16.57) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -6.29 -14.03) (end -6.29 16.57) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start 8.95 -14.03) (end 8.95 16.57) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -8.95 -14.03) (end -6.29 -14.03) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -8.95 -14.03) (end -8.95 16.57) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -8.95 16.57) (end -6.29 16.57) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+    (fp_line (start -6.29 -11.43) (end -8.95 -11.43) (layer "F.SilkS") (stroke (width 0.12) (type solid)))
+            
+    
+    
+    
+    
+  )
+
+  
+  
+    
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 0 0 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S1" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 17 "C1"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 50 "q_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 18.8583769 2.3155175 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S2" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 16 "C2"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 51 "w_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 37.7167538 4.631035 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S3" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 15 "C3"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 52 "e_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 56.5751306 6.9465526 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S4" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 12 "C4"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 53 "r_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 80.1481017 9.8409495 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S5" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 11 "C5"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 54 "t_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 132.3626959 10.4198289 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S6" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 10 "C6"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 55 "y_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 151.2210728 8.1043114 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S7" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 9 "C7"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 56 "u_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 170.0794497 5.788793900000001 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S8" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 8 "C8"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 57 "i_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 188.9378265 3.4732763 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S9" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 7 "C9"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 58 "o_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 212.5107976 0.5788793999999999 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S10" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 6 "C10"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 59 "p_top"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 0.0417796 19.1478166 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S11" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 17 "C1"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 60 "a_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 21.2574536 21.7527738 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S12" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 16 "C2"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 61 "s_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 40.1158305 24.0682913 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S13" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 15 "C3"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 62 "d_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 58.9742074 26.3838089 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S14" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 12 "C4"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 63 "f_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 77.8325842 28.699326399999997 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S15" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 11 "C5"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 64 "g_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 139.3928076 28.699326400000004 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S16" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 10 "C6"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 65 "h_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 158.2511845 26.383808900000005 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S17" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 9 "C7"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 66 "j_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 177.1095614 24.068291400000003 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S18" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 8 "C8"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 67 "k_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 195.9679382 21.752773800000003 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S19" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 7 "C9"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 68 "l_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 217.1836122 19.147816600000006 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S20" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 6 "C10"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 69 "semi_home"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 2.4408563 38.5850728 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S21" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 17 "C1"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 70 "z_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 28.3711245 41.7689094 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S22" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 16 "C2"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 71 "x_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 47.2295014 44.0844269 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S23" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 15 "C3"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 72 "c_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 66.0878783 46.399944399999995 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S24" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 12 "C4"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 73 "v_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 84.9462552 48.715462 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S25" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 11 "C5"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 74 "b_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 139.3510281 47.847142999999996 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S26" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 10 "C6"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 75 "n_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 165.2812963 44.663306399999996 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S27" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 9 "C7"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 76 "m_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 184.1396732 42.3477889 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S28" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 8 "C8"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 77 "comma_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 202.9980501 40.0322714 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S29" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 7 "C9"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 78 "period_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 221.856427 37.71675379999999 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S30" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 6 "C10"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 79 "slash_bottom"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 44.9139839 62.94280379999999 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S31" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 17 "C1"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 80 "flex_thumb"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 68.486955 65.8372007 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S32" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 16 "C2"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 81 "base_thumb"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 92.0599261 68.73159759999999 -7)
+            (attr virtual)
+
+            
+            (fp_text reference "S33" (at 0 0 -7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 -7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 -7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 -7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 -7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 15 "C3"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 -7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 82 "ext_thumb"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 188) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 125.16546579999999 68.73159770000001 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S34" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 12 "C4"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 83 "rext_thumb"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 148.73843689999998 65.8372008 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S35" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 11 "C5"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 84 "rbase_thumb"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+        (module "ceoloide:switch_choc_v1_v2" (layer B.Cu) (tedit 5DD50112)
+            (at 172.311408 62.94280390000001 7)
+            (attr virtual)
+
+            
+            (fp_text reference "S36" (at 0 0 7) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+
+            
+            (pad "" np_thru_hole circle (at 0 0 7) (size 5 5)
+                (drill 5) (layers *.Cu))
+        
+            (pad "" np_thru_hole circle (at 5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+            (pad "" np_thru_hole circle (at -5.5 0 7) (size 1.9 1.9) (drill 1.9) (layers *.Cu))
+        
+            
+            (pad "" np_thru_hole circle (at 0 -5.95 7) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+        
+            
+            (fp_line (start 1.5 -8.2) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -1.5) (end 7 -2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -8.2) (end 1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -6.2) (end 2.5 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -2.2) (end 2.5 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -7.7) (end -1.5 -8.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start -1.5 -3.7) (end 1 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 7 -5.6) (end 7 -6.2) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2 -6.7) (end 2 -7.7) (layer B.SilkS) (width 0.15))
+            (fp_line (start 2.5 -1.5) (end 7 -1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -2 -4.2) (end -1.5 -3.7) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 2.499999 -6.7) (end 2 -6.690001) (angle -88.9) (layer B.SilkS) (width 0.15))
+            (fp_arc (start 0.97 -2.17) (end 2.5 -2.17) (angle -90) (layer B.SilkS) (width 0.15))
+
+            
+            
+            (pad 1 smd rect (at -3.275 -5.95 7) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 10 "C6"))
+        
+
+            
+            (pad 2 smd rect (at 8.175 -3.75 7) (size 2.4 2.6) (layers B.Cu B.Paste B.Mask) (net 85 "rflex_thumb"))
+
+            
+            (pad "" np_thru_hole circle (at 5 -3.75 202) (size 3 3) (drill 3) (layers *.Cu *.Mask))            
+        
+        )
+        
+
+
+(module "SKHLLCA010" (layer "F.Cu")
+        (at 19.520761699999998 72.8217849 173)
+  (attr through_hole)
+  (fp_text reference "S37" (at -2.25 3.5 173) (layer F.SilkS) hide 
+      (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value "SKHLLCA010" (at 0 -0.75 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -2.25 0.55) (end 2.25 0.55) (layer "F.Fab") (width 0.12))
+  (fp_line (start -3.9 -0.07) (end -3.9 -3.75) (layer "F.Fab") (width 0.12))
+  (fp_line (start -1.25 -3.75) (end -1.25 -5) (layer "F.Fab") (width 0.12))
+  (fp_line (start 3.9 -0.07) (end 3.9 -3.75) (layer "F.Fab") (width 0.12))
+  (fp_line (start -3.9 -3.75) (end 3.9 -3.75) (layer "F.Fab") (width 0.12))
+  (fp_line (start 1.25 -3.75) (end 1.25 -5) (layer "F.Fab") (width 0.12))
+  (fp_line (start -1.25 -5) (end 1.25 -5) (layer "F.Fab") (width 0.12))
+  (fp_line (start -3.65 -4.97) (end 3.65 -4.97) (layer "F.CrtYd") (width 0.05))
+  (fp_line (start 3.65 -4.97) (end 3.65 2.18) (layer "F.CrtYd") (width 0.05))
+  (fp_line (start -3.65 -4.97) (end -3.65 2.18) (layer "F.CrtYd") (width 0.05))
+  (fp_line (start -3.65 2.18) (end 3.65 2.18) (layer "F.CrtYd") (width 0.05))
+  (pad "1" thru_hole circle (at -2.5 -1.25 173) (size 1.8 1.8) (drill 1) (layers *.Cu "B.Mask") (net 3 "RST"))
+  (pad "2" thru_hole circle (at 2.5 -1.25 173) (size 1.8 1.8) (drill 1) (layers *.Cu "B.Mask") (net 2 "GND"))
+  (pad "MP" thru_hole circle (at -3.5 1.25 173) (size 2.1 2.1) (drill 1.3) (layers *.Cu *.Mask))
+  (pad "MP" thru_hole circle (at 3.5 1.25 173) (size 2.1 2.1) (drill 1.3) (layers *.Cu *.Mask))
+)
+        
+
+(footprint "1208YD"
+  (layer "F.Cu")
+  (at -39.9199068 68.45322709999999 83)
+  (property "Reference" "SW1"
+    (at 0 -0.5 83)
+    (layer "F.SilkS")
+    hide
+    (effects (font (size 1 1) (thickness 0.1)))
+  )
+  (attr smd)
+  (fp_rect (start -5.825 -3.95) (end 5.825 3.95) (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS"))
+  (fp_circle (center 0 0) (end 3.55 0) (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts"))
+  (pad "1" smd rect (at -8.925 0 83) (size 4 2.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (net 1 "RAW"))
+  (pad "2" smd rect (at 8.925 0 83) (size 4 2.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (net 86 "BAT_CONN"))
+)
+
+
+        (module conn_molex_pico_front (layer F.Cu)
+          (at -33.0265747 58.5897924 173)
+          (attr smd)
+      
+        (fp_text reference CONN1 (at 0.1 3.9 173) (layer F.SilkS) hide
+          (effects (font (size 1 1) (thickness 0.15)))
+        )
+  (fp_rect (start -2.1 -1.98) (end 2.1 2.52)
+    (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS"))
+  (fp_line (start -2.6 -2.8) (end -2.6 3.02)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start -2.6 3.02) (end 2.6 3.02)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start 2.6 -2.8) (end -2.6 -2.8)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start 2.6 3.02) (end 2.6 -2.8)
+    (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_line (start -2.1 -1.98) (end -2.1 2.52)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start -2.1 -1.98) (end 2.1 -1.98)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start -2.1 2.52) (end -0.75 2.52)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start -1.1 -1.98) (end -0.6 -1.272893)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start -0.75 2.52) (end -0.45 2.02)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start -0.6 -1.272893) (end -0.1 -1.98)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start -0.45 2.02) (end 0.45 2.02)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start 0.45 2.02) (end 0.75 2.52)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start 0.75 2.52) (end 2.1 2.52)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_line (start 2.1 -1.98) (end 2.1 2.52)
+    (stroke (width 0.1) (type solid)) (layer "F.Fab"))
+  (fp_text user "+" (at -1.32 -2.75 173)(unlocked yes)
+ (layer "F.SilkS" knockout)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom)))
+        (pad MP smd roundrect (at 1.75 1.9 173) (size 0.7 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+        (pad MP smd roundrect (at -1.75 1.9 173) (size 0.7 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+        (pad 2 smd roundrect (at 0.6 -1.875 173) (size 0.6 0.85) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25) (net 2 "GND"))
+        (pad 1 smd roundrect (at -0.6 -1.875 173) (size 0.6 0.85) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25) (net 86 "BAT_CONN"))
+      
+      )
+      
+
+            (module mounting_hole (layer F.Cu) (tedit 64B5A986)
+                (at -11.3187985 -14.4874014 -7)
+                (fp_text reference "H1" (at 0 3) (layer F.SilkS) hide
+                    (effects (font (size 1 1) (thickness 0.15)))
+                )
+        
+                (pad "" thru_hole circle (at 0 0 180) (size 2.46 2.46) (drill 2.2) (layers *.Cu *.Mask))
+        
+                (fp_circle (center 0 0) (end -1.7 0) (layer F.CrtYd) (width 0.05))
+                (fp_circle (center 0 0) (end -1.7 0) (layer B.CrtYd) (width 0.05))
+        
+            )
+        
+
+            (module mounting_hole (layer F.Cu) (tedit 64B5A986)
+                (at 94.3873666 -1.5083162999999988 -7)
+                (fp_text reference "H2" (at 0 3) (layer F.SilkS) hide
+                    (effects (font (size 1 1) (thickness 0.15)))
+                )
+        
+                (pad "" thru_hole circle (at 0 0 180) (size 2.46 2.46) (drill 2.2) (layers *.Cu *.Mask))
+        
+                (fp_circle (center 0 0) (end -1.7 0) (layer F.CrtYd) (width 0.05))
+                (fp_circle (center 0 0) (end -1.7 0) (layer B.CrtYd) (width 0.05))
+        
+            )
+        
+
+            (module mounting_hole (layer F.Cu) (tedit 64B5A986)
+                (at 217.8743192 -13.177306 7)
+                (fp_text reference "H3" (at 0 3) (layer F.SilkS) hide
+                    (effects (font (size 1 1) (thickness 0.15)))
+                )
+        
+                (pad "" thru_hole circle (at 0 0 180) (size 2.46 2.46) (drill 2.2) (layers *.Cu *.Mask))
+        
+                (fp_circle (center 0 0) (end -1.7 0) (layer F.CrtYd) (width 0.05))
+                (fp_circle (center 0 0) (end -1.7 0) (layer B.CrtYd) (width 0.05))
+        
+            )
+        
+
+            (module mounting_hole (layer F.Cu) (tedit 64B5A986)
+                (at 30.4265825 74.26160229999999 -7)
+                (fp_text reference "H4" (at 0 3) (layer F.SilkS) hide
+                    (effects (font (size 1 1) (thickness 0.15)))
+                )
+        
+                (pad "" thru_hole circle (at 0 0 180) (size 2.46 2.46) (drill 2.2) (layers *.Cu *.Mask))
+        
+                (fp_circle (center 0 0) (end -1.7 0) (layer F.CrtYd) (width 0.05))
+                (fp_circle (center 0 0) (end -1.7 0) (layer B.CrtYd) (width 0.05))
+        
+            )
+        
+
+            (module mounting_hole (layer F.Cu) (tedit 64B5A986)
+                (at 79.557617 80.2941348 -7)
+                (fp_text reference "H5" (at 0 3) (layer F.SilkS) hide
+                    (effects (font (size 1 1) (thickness 0.15)))
+                )
+        
+                (pad "" thru_hole circle (at 0 0 180) (size 2.46 2.46) (drill 2.2) (layers *.Cu *.Mask))
+        
+                (fp_circle (center 0 0) (end -1.7 0) (layer F.CrtYd) (width 0.05))
+                (fp_circle (center 0 0) (end -1.7 0) (layer B.CrtYd) (width 0.05))
+        
+            )
+        
+
+            (module mounting_hole (layer F.Cu) (tedit 64B5A986)
+                (at 180.8435325 74.99281850000001 7)
+                (fp_text reference "H6" (at 0 3) (layer F.SilkS) hide
+                    (effects (font (size 1 1) (thickness 0.15)))
+                )
+        
+                (pad "" thru_hole circle (at 0 0 180) (size 2.46 2.46) (drill 2.2) (layers *.Cu *.Mask))
+        
+                (fp_circle (center 0 0) (end -1.7 0) (layer F.CrtYd) (width 0.05))
+                (fp_circle (center 0 0) (end -1.7 0) (layer B.CrtYd) (width 0.05))
+        
+            )
+        
+
+      (gr_text "BATTERY" (at -29.120387799999996 18.7186434 -7) (layer F.SilkS knockout)
+        (effects (font (size 1 1) (thickness 0.15)))
+      )
+    
+  (gr_line (start 96.09824252156756 41.86579765) (end 125.91282104456819 41.86579765) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 123.88687580428555 26.865797649999998) (end 93.33851599571446 26.865797649999998) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -7.592756236645144 -10.57968359830761) (end 94.78937186472402 1.9912610894768061) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -15.210718599274239 45.309509937238886) (end -8.428567809735034 -9.926675963864227) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 92.59410639194782 26.024395680676776) (end 95.44237949916739 2.8270726625667066) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -14.557710964830871 46.14532151032877) (end 35.814006165319825 52.33019068973126) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 122.43601993526543 1.991261089390802) (end 178.2667409 -4.863889499999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 121.78301230082207 2.8270726624806457) (end 124.63128540805216 26.024395680676662) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 178.41661549999998 -4.8822917) (end 224.81814803663988 -10.579683597037786) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 225.65395960972978 -9.926675962594572) (end 232.43611039951418 45.309510037880955) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 181.41138571479442 52.33019082600754) (end 231.78310276507074 46.14532161097085) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 128.54676083231996 57.91338419817646) (end 126.65723064833483 42.524395680676776) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 93.39322528312161 58.49226347833803) (end 95.35383291780091 42.524395680676776) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 34.98730793471521 71.37137160998343) (end 99.65268233708464 79.31128119883249) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 36.46701379976318 53.16600226282122) (end 34.33430030027184 70.53556003689351) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 100.48849391017453 78.6582735643891) (end 102.63960969875254 61.13884136290562) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 101.98660206430917 60.30302978981564) (end 94.04623291756496 59.32807505142789) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 117.57270956291536 79.31128129883248) (end 182.23808396429936 71.37137171010443) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 115.23878983569082 60.30302988981565) (end 127.89375319787659 58.749195771266486) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 114.58578220124745 61.13884146290559) (end 116.73689798982544 78.65827366438907) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 182.89109159874275 70.53556013701473) (end 180.758378080351 53.166002399097124) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 224.90955000596313 -9.835273993271151) (end 225.65395960596314 -9.926675993271152) (angle -89.99999999998673) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 231.69170079574752 45.40091200720417) (end 231.7831027957475 46.14532160720417) (angle -90.00000000000026) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 181.5027876841177 53.07460042977416) (end 181.4113856841177 52.33019082977416) (angle -89.99999999997624) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 182.14668199497612 70.62696210633794) (end 182.2380839949761 71.37137170633794) (angle -89.99999999999653) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 117.48130759359209 78.56687169506587) (end 116.7368979935921 78.65827369506587) (angle -90.00000000000574) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 115.33019180501408 61.047439493582374) (end 115.23878980501408 60.30302989358238) (angle -89.99999999999773) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 127.80235122855335 58.00478616749985) (end 127.89375322855335 58.74919576749985) (angle -90.00000000001151) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 125.91282104456819 42.61579764999999) (end 126.65723064456819 42.52439564999999) (angle -83.00000280606709) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 96.09824252156756 42.61579765) (end 96.09824252156756 41.86579765) (angle -83.00000280606653) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 94.13763488688824 58.58366544766125) (end 93.39322528688824 58.492263447661244) (angle -89.99999999999582) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 101.89520009498591 61.047439393582266) (end 102.63960969498591 61.13884139358227) (angle -90.00000000000755) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 99.7440843064079 78.56687159506578) (end 99.6526823064079 79.31128119506577) (angle -89.9999999999938) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 35.078709904038476 70.6269620062168) (end 34.33430030403848 70.5355600062168) (angle -90.00000000000153) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 35.72260419599656 53.074600293497895) (end 36.46701379599656 53.1660022934979) (angle -90.00000000000497) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start -14.466308995507612 45.400911906562136) (end -15.210718595507611 45.309509906562134) (angle -89.99999999999943) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start -7.684158205968403 -9.835273994540977) (end -7.592756205968403 -10.579683594540978) (angle -90.00000000000068) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 94.69796989540076 2.7356706932434385) (end 95.44237949540076 2.8270726932434385) (angle -90.00000000000084) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 93.33851599571446 26.11579764999999) (end 92.59410639571446 26.02439564999999) (angle -96.9999971939329) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 123.88687580428555 26.115797649999998) (end 123.88687580428555 26.865797649999998) (angle -96.99999719394235) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 122.52742190458869 2.735670693157431) (end 122.43601990458869 1.9912610931574308) (angle -89.9999999999968) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -10.2526226 8.0102266) (end 8.0102266 10.2526226) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 8.0102266 10.2526226) (end 10.252622599999999 -8.0102266) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 10.252622599999999 -8.0102266) (end -8.0102266 -10.252622599999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -8.0102266 -10.252622599999999) (end -10.2526226 8.0102266) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 8.6057543 10.3257441) (end 26.8686035 12.5681401) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 26.8686035 12.5681401) (end 29.1109995 -5.694709099999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 29.1109995 -5.694709099999999) (end 10.8481503 -7.937105099999998) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 10.8481503 -7.937105099999998) (end 8.6057543 10.3257441) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 27.464131199999997 12.6412616) (end 45.7269804 14.883657600000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 45.7269804 14.883657600000001) (end 47.9693764 -3.3791915999999986) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 47.9693764 -3.3791915999999986) (end 29.7065272 -5.621587599999998) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 29.7065272 -5.621587599999998) (end 27.464131199999997 12.6412616) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 46.322508000000006 14.9567792) (end 64.5853572 17.1991752) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 64.5853572 17.1991752) (end 66.8277532 -1.063673999999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 66.8277532 -1.063673999999999) (end 48.564904000000006 -3.3060699999999983) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 48.564904000000006 -3.3060699999999983) (end 46.322508000000006 14.9567792) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 65.3793942 17.2966706) (end 92.6744133 20.6480776) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 67.6217901 -0.9661785999999992) (end 94.91680919999999 2.385228399999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 124.3524693 20.6724515) (end 142.6153185 18.4300555) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 142.6153185 18.4300555) (end 140.37292250000002 0.1672063000000037) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 140.37292250000002 0.1672063000000037) (end 122.1100733 2.409602300000003) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 122.1100733 2.409602300000003) (end 124.3524693 20.6724515) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 143.21084620000002 18.356934000000003) (end 161.4736954 16.114538) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 161.4736954 16.114538) (end 159.2312994 -2.1483111999999984) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 159.2312994 -2.1483111999999984) (end 140.9684502 0.09408480000000097) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 140.9684502 0.09408480000000097) (end 143.21084620000002 18.356934000000003) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 162.06922310000002 16.041416500000004) (end 180.3320723 13.799020500000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 180.3320723 13.799020500000001) (end 178.0896763 -4.463828699999997) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 178.0896763 -4.463828699999997) (end 159.8268271 -2.2214326999999976) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 159.8268271 -2.2214326999999976) (end 162.06922310000002 16.041416500000004) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 180.92759990000002 13.7258989) (end 199.19044910000002 11.4835029) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 199.19044910000002 11.4835029) (end 196.9480531 -6.7793462999999985) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 196.9480531 -6.7793462999999985) (end 178.6852039 -4.536950299999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 178.6852039 -4.536950299999999) (end 180.92759990000002 13.7258989) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 199.984486 11.3860075) (end 227.2795051 8.0346005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 197.74209009999998 -6.876841700000002) (end 225.03710919999997 -10.2282487) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -12.3696308 26.8929774) (end 10.2107941 29.665505) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -10.1272349 8.630128199999998) (end 12.453190000000001 11.402655799999998) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 11.004831000000001 29.7630004) (end 29.2676802 32.0053964) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 29.2676802 32.0053964) (end 31.5100762 13.7425472) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 31.5100762 13.7425472) (end 13.247227000000002 11.500151200000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 13.247227000000002 11.500151200000001) (end 11.004831000000001 29.7630004) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 29.8632079 32.0785179) (end 48.1260571 34.3209139) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 48.1260571 34.3209139) (end 50.368453099999996 16.058064700000003) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 50.368453099999996 16.058064700000003) (end 32.105603900000006 13.815668700000003) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 32.105603900000006 13.815668700000003) (end 29.8632079 32.0785179) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 48.721584799999995 34.394035499999994) (end 66.984434 36.63643149999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 66.984434 36.63643149999999) (end 69.22682999999999 18.373582299999995) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 69.22682999999999 18.373582299999995) (end 50.963980799999995 16.131186299999996) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 50.963980799999995 16.131186299999996) (end 48.721584799999995 34.394035499999994) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 67.57996159999999 36.70955299999999) (end 85.8428108 38.95194899999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 85.8428108 38.95194899999999) (end 88.0852068 20.689099799999994) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 88.0852068 20.689099799999994) (end 69.8223576 18.446703799999995) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 69.8223576 18.446703799999995) (end 67.57996159999999 36.70955299999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 131.38258100000002 38.951949000000006) (end 149.64543020000002 36.70955300000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 149.64543020000002 36.70955300000001) (end 147.4030342 18.44670380000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 147.4030342 18.44670380000001) (end 129.140185 20.689099800000008) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 129.140185 20.689099800000008) (end 131.38258100000002 38.951949000000006) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 150.2409579 36.63643150000001) (end 168.50380710000002 34.39403550000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 168.50380710000002 34.39403550000001) (end 166.2614111 16.13118630000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 166.2614111 16.13118630000001) (end 147.9985619 18.37358230000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 147.9985619 18.37358230000001) (end 150.2409579 36.63643150000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 169.0993348 34.320914) (end 187.362184 32.078518) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 187.362184 32.078518) (end 185.119788 13.815668800000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 185.119788 13.815668800000005) (end 166.8569388 16.058064800000004) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 166.8569388 16.058064800000004) (end 169.0993348 34.320914) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 187.9577116 32.0053964) (end 206.2205608 29.763000400000003) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 206.2205608 29.763000400000003) (end 203.9781648 11.500151200000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 203.9781648 11.500151200000005) (end 185.7153156 13.742547200000004) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 185.7153156 13.742547200000004) (end 187.9577116 32.0053964) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 207.0145977 29.665505000000007) (end 229.5950226 26.892977400000007) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 204.7722018 11.402655800000005) (end 227.3526267 8.630128200000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -14.6851484 45.751354199999994) (end 17.324465 49.681640599999994) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -12.4427524 27.488504999999996) (end 19.566860999999996 31.418791399999996) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 18.1185019 49.779136) (end 36.3813511 52.021532) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 36.3813511 52.021532) (end 38.6237471 33.7586828) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 38.6237471 33.7586828) (end 20.3608979 31.516286800000003) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 20.3608979 31.516286800000003) (end 18.1185019 49.779136) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 36.9768788 52.0946535) (end 55.239728 54.3370495) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 55.239728 54.3370495) (end 57.482124 36.0742003) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 57.482124 36.0742003) (end 39.2192748 33.8318043) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 39.2192748 33.8318043) (end 36.9768788 52.0946535) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 55.8352557 54.410171) (end 74.0981049 56.652567) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 74.0981049 56.652567) (end 76.3405009 38.3897178) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 76.3405009 38.3897178) (end 58.0776517 36.1473218) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 58.0776517 36.1473218) (end 55.8352557 54.410171) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 74.69363259999999 56.725688600000005) (end 92.95648179999999 58.968084600000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 92.95648179999999 58.968084600000005) (end 95.19887779999999 40.70523540000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 95.19887779999999 40.70523540000001) (end 76.93602859999999 38.46283940000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 76.93602859999999 38.46283940000001) (end 74.69363259999999 56.725688600000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 124.46741940000001 58.94371079999999) (end 156.47703280000002 55.01342439999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 122.22502340000001 40.68086159999999) (end 154.2346368 36.75057519999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 157.27106970000003 54.915929) (end 175.5339189 52.673533) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 175.5339189 52.673533) (end 173.29152290000002 34.4106838) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 173.29152290000002 34.4106838) (end 155.0286737 36.6530798) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 155.0286737 36.6530798) (end 157.27106970000003 54.915929) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 176.12944660000002 52.6004115) (end 194.3922958 50.3580155) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 194.3922958 50.3580155) (end 192.14989980000001 32.0951663) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 192.14989980000001 32.0951663) (end 173.8870506 34.3375623) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 173.8870506 34.3375623) (end 176.12944660000002 52.6004115) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 194.98782350000002 50.284894) (end 213.2506727 48.042498) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 213.2506727 48.042498) (end 211.0082767 29.779648800000004) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 211.0082767 29.779648800000004) (end 192.7454275 32.0220448) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 192.7454275 32.0220448) (end 194.98782350000002 50.284894) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 213.84620040000001 47.969376399999994) (end 232.1090496 45.726980399999995) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 232.1090496 45.726980399999995) (end 229.8666536 27.464131199999997) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 229.8666536 27.464131199999997) (end 211.6038044 29.706527199999996) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 211.6038044 29.706527199999996) (end 213.84620040000001 47.969376399999994) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 34.6613613 70.95303039999999) (end 52.9242105 73.1954264) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 52.9242105 73.1954264) (end 55.1666065 54.9325772) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 55.1666065 54.9325772) (end 36.9037573 52.6901812) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 36.9037573 52.6901812) (end 34.6613613 70.95303039999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 53.7182475 73.2929218) (end 81.0132666 76.6443288) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 55.960643399999995 55.0300726) (end 83.2556625 58.3814796) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 81.80730349999999 76.7418242) (end 100.0701527 78.9842202) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 100.0701527 78.9842202) (end 102.3125487 60.72137099999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 102.3125487 60.72137099999999) (end 84.0496995 58.47897499999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 84.0496995 58.47897499999999) (end 81.80730349999999 76.7418242) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 117.15523919999998 78.98422030000002) (end 135.4180884 76.74182430000002) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 135.4180884 76.74182430000002) (end 133.1756924 58.478975100000014) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 133.1756924 58.478975100000014) (end 114.91284319999998 60.72137110000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 114.91284319999998 60.72137110000001) (end 117.15523919999998 78.98422030000002) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 136.21212529999997 76.6443289) (end 163.5071444 73.29292190000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 133.96972939999998 58.38147970000001) (end 161.2647485 55.030072700000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 164.30118140000002 73.19542650000001) (end 182.56403060000002 70.95303050000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 182.56403060000002 70.95303050000001) (end 180.3216346 52.690181300000006) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 180.3216346 52.690181300000006) (end 162.0587854 54.932577300000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 162.0587854 54.932577300000005) (end 164.30118140000002 73.19542650000001) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 10.2107941 29.665505) (end 12.453190000000001 11.402655799999998) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -10.1272349 8.630128199999998) (end -12.3696308 26.8929774) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 229.5950226 26.892977400000007) (end 227.3526267 8.630128200000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 204.7722018 11.402655800000005) (end 207.0145977 29.665505000000007) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 92.6744133 20.6480776) (end 94.91680919999999 2.385228399999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 67.6217901 -0.9661785999999992) (end 65.3793942 17.2966706) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 227.2795051 8.0346005) (end 225.03710919999997 -10.2282487) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 197.74209009999998 -6.876841700000002) (end 199.984486 11.3860075) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 81.0132666 76.6443288) (end 83.2556625 58.3814796) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 55.960643399999995 55.0300726) (end 53.7182475 73.2929218) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 163.5071444 73.29292190000001) (end 161.2647485 55.030072700000005) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 133.96972939999998 58.38147970000001) (end 136.21212529999997 76.6443289) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 17.324465 49.681640599999994) (end 19.566860999999996 31.418791399999996) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -12.4427524 27.488504999999996) (end -14.6851484 45.751354199999994) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 156.47703280000002 55.01342439999999) (end 154.2346368 36.75057519999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 122.22502340000001 40.68086159999999) (end 124.46741940000001 58.94371079999999) (angle 90) (layer Edge.Cuts) (width 0.15))
+
+)
+

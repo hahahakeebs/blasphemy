@@ -43,8 +43,9 @@ units:
   sch: 4.5
 
   # DON'T BOTHER TRYING TO MAKE OFFSETS USING EXPAND UNLESS THE PCB IS PERFECTLY RECTANGULAR. ANY OTHER SHAPES WILL NOT WORK.
-  case_offset: 0.25
-  case_thickness: 1.5
+  case_offset: 0.5 # PLA: experimented with .25mm. bad fit. it's not worth trying to tighten up this tolerance.
+  case_thickness: 2.75 # PLA: 1.5mm results in warped walls. can reduce if you want to print in different material.
+  # DON'T fillet the inner corners of the case. makes tolerances more difficult to dial in with PLA. just keep square corners.
 
 points:
   zones:
@@ -413,7 +414,7 @@ outlines:
       radius: 1
       adjust.shift: [0, 5.9]
   case_bottom: 
-    - name: pcb
+    - name: _pcb_shape
     - what: rectangle # add material for reset switch
       where: ref_switch_reset
       size: [rcx-2case_offset, rcy]
@@ -423,7 +424,7 @@ outlines:
       operation: stack
     - what: circle # power button cutout
       where: ref_switch_power
-      radius: 7/2
+      radius: 7.4/2
       operation: stack
     - name: _hotswap_cutouts # comment out to speed up outline gen.
       operation: stack

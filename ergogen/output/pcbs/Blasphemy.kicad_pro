@@ -272,27 +272,19 @@
       },
       {
         "netclass": "Default",
-        "pattern": "C11"
+        "pattern": "C1"
       },
       {
         "netclass": "Default",
-        "pattern": "C10"
+        "pattern": "C2"
       },
       {
         "netclass": "Default",
-        "pattern": "C9"
+        "pattern": "C3"
       },
       {
         "netclass": "Default",
-        "pattern": "C8"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "C7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "C6"
+        "pattern": "C4"
       },
       {
         "netclass": "Default",
@@ -300,7 +292,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "C4"
+        "pattern": "C6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "C7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "C8"
       },
       {
         "netclass": "Default",
@@ -312,15 +312,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "C3"
+        "pattern": "P2"
       },
       {
         "netclass": "Default",
-        "pattern": "C2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "C1"
+        "pattern": "P3"
       },
       {
         "netclass": "Default",
@@ -340,7 +336,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "R5"
+        "pattern": "C9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "C10"
       },
       {
         "netclass": "Default",

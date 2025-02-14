@@ -2123,6 +2123,618 @@
         )
         
 
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at -0.6093467 4.9627308 -7)
+            (fp_text reference "D1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 50 "q_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 18.2490302 7.2782483 -7)
+            (fp_text reference "D2" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 51 "w_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 37.107407099999996 9.5937658 -7)
+            (fp_text reference "D3" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 52 "e_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 55.9657839 11.9092834 -7)
+            (fp_text reference "D4" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 53 "r_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 81.8960522 15.093119999999999 -7)
+            (fp_text reference "D5" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 54 "t_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 218.5640385 4.9627308 7)
+            (fp_text reference "D6" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 55 "mirror_q_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 199.7056616 7.2782483 7)
+            (fp_text reference "D7" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 56 "mirror_w_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 180.84728470000002 9.5937658 7)
+            (fp_text reference "D8" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 57 "mirror_e_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 161.98890790000002 11.9092834 7)
+            (fp_text reference "D9" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 58 "mirror_r_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 136.0586396 15.093119999999999 7)
+            (fp_text reference "D10" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "R1"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 59 "mirror_t_top"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at -0.5675671 24.110547399999998 -7)
+            (fp_text reference "D11" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 60 "a_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 20.648106900000002 26.7155046 -7)
+            (fp_text reference "D12" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 61 "s_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 39.5064838 29.031022099999998 -7)
+            (fp_text reference "D13" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 62 "d_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 58.364860699999994 31.346539699999997 -7)
+            (fp_text reference "D14" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 63 "f_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 81.9378318 34.2409366 -7)
+            (fp_text reference "D15" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 64 "g_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 218.5222589 24.110547399999998 7)
+            (fp_text reference "D16" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 65 "mirror_a_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 197.30658490000002 26.7155046 7)
+            (fp_text reference "D17" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 66 "mirror_s_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 178.44820800000002 29.031022099999998 7)
+            (fp_text reference "D18" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "mirror_d_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 159.58983110000003 31.346539699999997 7)
+            (fp_text reference "D19" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "mirror_f_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 136.01686 34.2409366 7)
+            (fp_text reference "D20" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "R2"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "mirror_g_home"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at -5.2403816999999995 42.6794846 -7)
+            (fp_text reference "D21" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "z_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 13.6179952 44.9950021 -7)
+            (fp_text reference "D22" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "x_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 32.4763721 47.3105196 -7)
+            (fp_text reference "D23" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 72 "c_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 51.3347489 49.6260372 -7)
+            (fp_text reference "D24" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "v_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 77.2650172 52.809873800000005 -7)
+            (fp_text reference "D25" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 74 "b_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 223.1950735 42.6794846 7)
+            (fp_text reference "D26" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 75 "mirror_z_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 204.3366966 44.9950021 7)
+            (fp_text reference "D27" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 76 "mirror_x_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 185.47831970000001 47.3105196 7)
+            (fp_text reference "D28" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 77 "mirror_c_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 166.6199429 49.6260372 7)
+            (fp_text reference "D29" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 78 "mirror_v_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 140.6896746 52.809873800000005 7)
+            (fp_text reference "D30" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "R3"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 79 "mirror_b_bottom"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 37.2327459 67.0372156 -7)
+            (fp_text reference "D31" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "R4"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 80 "flex_thumb"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 63.1630141 70.2210522 -7)
+            (fp_text reference "D32" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "R4"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 81 "base_thumb"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 82.021391 72.5365697 -7)
+            (fp_text reference "D33" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "R4"))
+            (pad 2 smd rect (at 1.65 0 -7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 82 "ext_thumb"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 180.7219459 67.0372156 7)
+            (fp_text reference "D34" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "R4"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 83 "mirror_flex_thumb"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 154.7916777 70.2210522 7)
+            (fp_text reference "D35" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "R4"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 84 "mirror_base_thumb"))
+        
+        )
+        
+
+        (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+            (at 135.9333008 72.5365697 7)
+            (fp_text reference "D36" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+        
+            (fp_line (start 0.25 0) (end 0.75 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 0.4) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end 0.25 -0.4) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.35 0) (end -0.35 -0.55) (layer F.SilkS) (width 0.1))
+            (fp_line (start -0.75 0) (end -0.35 0) (layer F.SilkS) (width 0.1))
+            (pad 1 smd rect (at -1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "R4"))
+            (pad 2 smd rect (at 1.65 0 7) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 85 "mirror_ext_thumb"))
+        
+        )
+        
+
 
 (module "SKHLLCA010" (layer "F.Cu")
         (at 3.9773459000000173 78.43689989999999 180)
